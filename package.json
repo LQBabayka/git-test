@@ -1,0 +1,14 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tryfs.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Alex Tim",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
+}
