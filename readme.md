@@ -1,3 +1,3 @@
-# Git and Github Course
+# Node js modules and practice
 
-Some text
+Создал этот репозиторий для проверки и тренировки нового функционала
