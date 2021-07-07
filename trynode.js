@@ -42,6 +42,19 @@ const fs = require('fs'); //file system. уже есть в node js
         console.log('Data добавлена');
     });
 
+    //Вывод текущей даты и времени
+    let ts = Date.now();
+
+    let date_ob = new Date(ts);
+    let date = date_ob.getDate();
+    let month = date_ob.getMonth() + 1;
+    let year = date_ob.getFullYear();
+    let formatDate = `${date}.${month}.${year}`
+
+    // prints date & time in YYYY-MM-DD format
+    //console.log(year + "-" + month + "-" + date);
+    console.log(formatDate);
+
     //Чтение данных
     fs.readFile('testFile2.txt', 'utf8', (err, data) => {
         if (err) throw err;
